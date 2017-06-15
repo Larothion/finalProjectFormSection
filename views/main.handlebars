@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>StreamFluence Signup</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" 
+	 crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">	
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://www.streamfluence.io/">
+        <img alt="Brand" src="./assets/images/logoMain.png">
+      </a>
+    </div>
+  </div>
+</nav>
+<div class="jumbotron">
+	<img src="./assets/images/streamBanner.png">
+</div>
+<div class=whole>
+	<div class="container">
+		<h1> Create Your Streamer Profile </h1>	
+		<form class="streamerForm" role="form"  action="/api/addinfluencer" method="GET">
+		  <div class="form-group">
+		    <label for="inputFirstName">First Name</label>
+		    <input type="text" name="first_name" class="form-control firstNameSubmit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter First Name">
+		  </div>
+		  <div class="form-group">
+		    <label for="inputTwitchName">Twitch Name</label>
+		    <input type="text" name="influencer_name" class="form-control twitchNameSubmit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Twitch Name">
+		  </div>
+		  <div class="form-group">
+		    <label for="inputBusinessEmail">Business Email </label>
+		    <input type="text" name="business_email" class="form-control emailSubmit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Business Email">
+		  </div>
+		  <div class="form-group">
+		    <label for="inputTwitchChannel">Twitch Channel Link </label>
+		    <input type="text" name="channel_link" class="form-control twitchChannelSubmit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Twitch Channel">
+		  </div>
+		  <div class="form-group">
+		    <label for="inputTwitterHandle">Twitter Handle </label>
+		    <input type="text" name="twitter_name" class="form-control twitterSubmit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Twitter Link">
+		  </div>
+		  <div class="form-group">
+		    <label for="inputYoutubeLink">YouTube Channel Link (if applicable)</label>
+		    <input type="text" name="youtube_name" class="form-control youtubeSubmit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter YouTube Channel">
+		  </div>
+		  <div class="form-group">
+		    <label for="inputStreamingLanguage">Streaming Language</label>
+		    <input type="text" name="stream_lang" class="form-control languageSubmit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Streaming Language">
+		  </div>
+		  <div class="form-group">
+		    <label for="inputCountry">Country of Residence </label>
+		    <input type="text" name="country" class="form-control countrySubmit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Country of Residence">
+		  </div>
+		  <div class="form-group">
+		    <label for="inputReferral">If Someone Referred You, Put Their Name Here (They'll thank you for it!) </label>
+		    <input type="text" class="form-control referralSubmit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Country of Residence">
+		  </div>
+		  <div class="form-check">
+		    <label class="form-check-label">
+		      <input type="checkbox" class="form-check-input checkboxSubmit">
+		      By applying you agree to StreamFluence's Terms and Conditions
+		    </label>
+		  </div>
+		  <button type="submit" class="btn-lg btn-success formSubmit">Submit</button>
+		</form>
+	</div>
+</div>
+</body>
+</html>

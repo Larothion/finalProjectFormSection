@@ -1,0 +1,39 @@
+h1 {
+	margin: 15px;
+	color: #503383;
+}
+
+body {
+
+	color: #503383;
+}
+
+.navbar {
+	height: 80px;
+}
+
+.whole {
+
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: white;
+	margin: 0px;
+}
+
+.form-group {
+	color: #503383;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.streamerForm {
+	border: 3px solid #bfbfbf;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
